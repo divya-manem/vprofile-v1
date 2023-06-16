@@ -46,6 +46,7 @@
             <artifactId>spring-security-config</artifactId>
             <version>${spring-security.version}</version>
         </dependency>
+	    
 
         <dependency>
             <groupId>org.hibernate</groupId>
@@ -133,6 +134,7 @@
                 </configuration>
             </plugin>
 		<!-- CODE COVERAGE -->
+		<!-- Demo on github webhooks -->
 		    <plugin>
 		        <groupId>org.jacoco</groupId>
 		        <artifactId>jacoco-maven-plugin</artifactId>
